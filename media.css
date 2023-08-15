@@ -7,6 +7,10 @@
         width: 100%;
     }
 
+    .title h1{
+        line-height: 0.5
+    }
+
     .sosmed{
         font-size: 2rem;
     }
