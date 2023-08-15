@@ -1,0 +1,98 @@
+/* Fonts */
+@font-face {
+    font-family: Gropled;
+    src: url('assets/fonts/Gropled-Bold.otf');
+}
+@font-face {
+    font-family: Mattone;
+    src: url('assets/fonts/Mattone-150.otf');
+}
+@font-face {
+    font-family: Quantum;
+    src: url('assets/fonts/Quantum.otf');
+}
+
+
+/* default */
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.page1{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* title */
+.title{
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background: darkred;
+    width: 25%;
+}
+
+.title h1{
+    position: absolute;
+    left: 0;
+    writing-mode: vertical-rl;
+    font-family: Quantum;
+    font-size: 19.6vh;
+}
+
+.aikon{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sosmed{
+    border-bottom: 2px solid #111;
+    font-size: 2.5rem;
+    color: #111;
+    text-decoration: none;
+}
+
+
+/* content */
+.content{
+    height: 100vh;
+    padding: 0 100px;
+    background: #111;
+    width: 75%;
+    color: #fff;
+}
+
+.judul{
+    color: darkred;
+    font-family: Quantum;
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+/* links */
+a{
+    font-size: 1.5rem;
+    color: #fff;
+    border-bottom: 2px solid darkred;
+    padding: 10px 0;
+    color: darkred;
+}
+
+.work{
+    font-family: Mattone;
+    display: flex;
+    flex-direction: column;
+}
