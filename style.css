@@ -32,7 +32,6 @@
 
 /* title */
 .title{
-    justify-content: center;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -41,8 +40,6 @@
 }
 
 .title h1{
-    position: absolute;
-    left: 0;
     writing-mode: vertical-rl;
     font-family: Quantum;
     font-size: 19.6vh;
@@ -53,6 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 20px;
     gap: 20px;
 }
 
